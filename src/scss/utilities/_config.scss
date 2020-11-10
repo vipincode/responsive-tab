@@ -1,0 +1,47 @@
+
+//PRIMARY FOONT
+$font-stack--google     : 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300';
+$font-family--primary   : 'Open Sans', sans-serif;
+$font-weight--small     : 300;
+$font-weight--medium    : 400;
+$font-weight--large     : 700;
+$font-weight--xl        : 800;
+
+// BASE COLOR
+
+$white             : #fff;
+$grey              : #eee;
+$black             : #0b0b0b;
+$balck-x           : #9B9797;
+$color-accent      : #555;
+$base-color        : #05c46b;
+
+// COLOR MAPS
+
+$ui-colors         : (
+	default          : #3c40c6,
+	info             : #4bcffa,
+	warning          : #ffa801,
+	success          : #05c46b,
+	error            : #ff3f34
+);
+
+// UNITS
+$base-font              : 16px;
+$base-line              : 24px;
+$max-width              : 1200px;
+$br-radius              : 4px;
+$br-roundy              : 50%;
+$transition             : 0.4s;
+$letter-space           : 1px;
+$gutter                 : 10px;
+$spaceamounts           : (5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 75, 100);
+$sides                  : (top, bottom, left, right);
+
+//Breakpoints
+$breakpoints   : (
+	'xs'         : 575px,
+	'sm'         : 576px,
+	'md'         : 768px,
+	'lg'         : 992px,
+);

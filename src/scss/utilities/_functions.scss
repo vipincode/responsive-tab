@@ -1,0 +1,21 @@
+// Importing Google Fonts
+@if variable-exist(font-stack--google) {
+  @import url($font-stack--google);
+}
+
+// px to em
+@function em($target, $context: $base-font) {
+	@return ($target / $context) * 1em;
+}
+
+// px to percentage
+@function px-to-pc($target, $context: $max-width) {
+	@return ($target/$context) * 100%;
+}
+
+// Creat perline count
+@function per-line($item) {
+	$g-pct: px-to-pc($gutter) * 2;
+	$g-total: $item * $g-pct;
+	@return (100% / $item) - $g-total;
+}

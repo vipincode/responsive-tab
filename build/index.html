@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Tab || Accordion</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="site-wrapper">
+
+    <section id="tab">
+      <div class="container">
+        <div class="tab_heading">
+          <h1>Responsive Tab</h1>
+        </div>
+        <div class="tab mt100">
+          <div class="demo_heading">
+            <h3>Example#Basic Tab</h3>
+          </div>
+          <div id="smarttab">
+            <ul class="nav">
+              <li>
+                <a class="nav-link" href="#tab-1">
+                  Tab 1
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="#tab-2">
+                  Tab 2
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="#tab-3">
+                  Tab 3
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="#tab-4">
+                  Tab 4
+                </a>
+              </li>
+            </ul>
+            <!-- /TAB BUTTON -->
+            <div class="tab-content">
+              <div id="tab-1" class="tab-pane" role="tabpanel">
+                <article class="tab-text">
+                  <h3>Tab content 1</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nisi reprehenderit placeat debitis eius iure animi ullam excepturi praesentium doloremque ipsam, sunt minima, incidunt, similique? Esse incidunt molestias veniam
+                    alias.</p>
+                </article>
+              </div>
+              <div id="tab-2" class="tab-pane" role="tabpanel">
+                <article class="tab-text">
+                  <h3>Tab content 2</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nisi reprehenderit placeat debitis eius iure animi ullam excepturi praesentium doloremque ipsam, sunt minima, incidunt, similique? Esse incidunt molestias veniam
+                    alias.</p>
+                </article>
+              </div>
+              <div id="tab-3" class="tab-pane" role="tabpanel">
+                <article class="tab-text">
+                  <h3>Tab content 3</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nisi reprehenderit placeat debitis eius iure animi ullam excepturi praesentium doloremque ipsam, sunt minima, incidunt, similique? Esse incidunt molestias veniam
+                    alias.</p>
+                </article>
+              </div>
+              <div id="tab-4" class="tab-pane" role="tabpanel">
+                <article class="tab-text">
+                  <h3>Tab content 4</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nisi reprehenderit placeat debitis eius iure animi ullam excepturi praesentium doloremque ipsam, sunt minima, incidunt, similique? Esse incidunt molestias veniam
+                    alias.</p>
+                </article>
+              </div>
+            </div>
+            <!-- /TAB CONTENT -->
+          </div>
+          <!-- /SMART TAB -->
+        </div>
+      </div>
+      <!-- /CONTAINER -->
+    </section>
+    <!-- /TAB 1-->
+
+    <section id="tab-2" class="mt80">
+      <div class="container">
+        <div class="easy-rstab clearfix">
+
+          <!-- Horizontal tab (Bsic) -->
+          <div class="basic_tab">
+            <h3>Example#Horizontal Tab</h3>
+            <div id="basic_tab">
+              <ul class="resp-tabs-list hor_1">
+                <li>Horizontal 1</li>
+                <li>Horizontal 2</li>
+                <li>Horizontal 3</li>
+              </ul>
+              <div class="resp-tabs-container hor_1">
+                <div>
+                  <!--vertical Tabs-->
+                  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non, volutpat vel tortor. Integer laoreet placerat suscipit. Sed sodales scelerisque commodo. Nam porta cursus lectus. Proin nunc
+                    erat,
+                    gravida a facilisis quis, ornare id lectus. Proin consectetur nibh quis urna gravida mollis.</p>
+                </div>
+                <div>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non, volutpat vel tortor. Integer laoreet placerat suscipit. Sed sodales scelerisque commodo. Nam porta cursus lectus. Proin nunc erat,
+                  gravida a facilisis quis, ornare id lectus. Proin consectetur nibh quis urna gravida mollis.
+                  <br>
+                  <br>
+                  <p>Tab 2 Container</p>
+                </div>
+                <div>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non, volutpat vel tortor. Integer laoreet placerat suscipit. Sed sodales scelerisque commodo. Nam porta cursus lectus. Proin nunc erat,
+                  gravida a facilisis quis, ornare id lectus. Proin consectetur nibh quis urna gravida mollis.
+                  <br>
+                  <br>
+                  <p>Tab 3 Container</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /basic horizontal tab -->
+
+          <!--Horizontal Tab with nested verticle-->
+          <div class="mt100">
+            <h3>Example#Horizontal Nested Tabs</h3>
+            <div id="nested_hrtab">
+              <ul class="resp-tabs-list hor_1">
+                <li>Horizontal 1</li>
+                <li>Horizontal 2</li>
+                <li>Horizontal 3</li>
+              </ul>
+              <div class="resp-tabs-container hor_1">
+                <div>
+                  <!--vertical Tabs-->
+                  <div id="ChildVerticalTab_1">
+                    <ul class="resp-tabs-list ver_1">
+                      <li>Responsive Tab 1</li>
+                      <li>Responsive Tab 2</li>
+                      <li>Responsive Tab 3</li>
+                      <li>Long name Responsive Tab 4</li>
+                    </ul>
+                    <div class="resp-tabs-container ver_1">
+                      <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non, volutpat vel tortor. Integer laoreet placerat suscipit. Sed sodales scelerisque commodo. Nam porta cursus lectus. Proin
+                          nunc erat, gravida a facilisis quis, ornare id lectus. Proin consectetur nibh quis urna gravida mollis.</p>
+                      </div>
+                      <div>
+                        <p>Lorem ipsum dolor sit amet, lerisque commodo. Nam porta cursus lectusconsectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non, volutpat vel tortor. Integer laoreet placerat suscipit. Sed sodales sce. Proin
+                          nunc erat, gravida a facilisis quis, ornare id lectus</p>
+                      </div>
+                      <div>
+                        <p>Suspendisse blandit velit Integer laoreet placerat suscipit. Sed sodales scelerisque commodo. Nam porta cursus lectus. Proin nunc erat, gravida a facilisis quis, ornare id lectus. Proin consectetur nibh quis Integer laoreet
+                          placerat suscipit. Sed sodales scelerisque commodo. Nam porta cursus lectus. Proin nunc erat, gravida a facilisis quis, ornare id lectus. Proin consectetur nibh quis urna gravid urna gravid eget erat suscipit in malesuada
+                          odio
+                          venenatis.</p>
+                      </div>
+                      <div>
+                        <p>d ut ornare non, volutpat vel tortor. InLorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non, volutpat vel tortor. Integer laoreet placerat suscipit. Sed sodales scelerisque
+                          commodo. Nam porta cursus lectus. Proin nunc erat, gravida a facilisis quis, ornare id lectus. Proin consectetur nibh quis urna gravida mollis.t in malesuada odio venenatis.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <p>Tab 1 Container</p>
+                </div>
+                <div>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non, volutpat vel tortor. Integer laoreet placerat suscipit. Sed sodales scelerisque commodo. Nam porta cursus lectus. Proin nunc
+                    erat,
+                    gravida a facilisis quis, ornare id lectus. Proin consectetur nibh quis urna gravida mollis.</p>
+                  <br>
+                  <br>
+                  <p>Tab 2 Container</p>
+                </div>
+                <div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non, volutpat vel tortor. Integer laoreet placerat suscipit. Sed sodales scelerisque commodo. Nam porta cursus lectus. Proin nunc
+                    erat,
+                    gravida a facilisis quis, ornare id lectus. Proin consectetur nibh quis urna gravida mollis.</p>
+                  <br>
+                  <br>
+                  <p>Tab 3 Container</p>
+                </div>
+              </div>
+            </div>
+            <!-- <div id="nested-tabInfo">
+            Selected tab: <span class="tabName"></span>
+          </div> -->
+          </div>
+          <!--/ Horizontal Tab-->
+
+          <!--Vertical Tab-->
+          <div class="mt100">
+            <h3>Example#Vertical Tab </h3>
+            <div id="nested_vtab">
+              <ul class="resp-tabs-list hor_1">
+                <li>Vertical 1</li>
+                <li>Vertical 2</li>
+                <li>Vertical 3</li>
+              </ul>
+              <div class="resp-tabs-container hor_1">
+                <div>
+                  <p> Lorem ipsum dolor sit amet, lerisque commodo. Nam porta cursus lectusconsectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non, volutpat vel tortor. Integer laoreet placerat suscipit. Sed sodales sce. Proin nunc
+                    erat,
+                    gravida a facilisis quis, ornare id lectus.</p>
+                  <br>
+                  <br>
+                  <p>Tab 1 Container</p>
+                </div>
+                <div>
+                  <p> Lorem ipsum dolor sit amet, lerisque commodo. Nam porta cursus lectusconsectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non, volutpat vel tortor. Integer laoreet placerat suscipit. Sed sodales sce. Proin nunc
+                    erat,
+                    gravida a facilisis quis, ornare id lectus.</p>
+                  <br>
+                  <p>Tab 2 Container</p>
+                </div>
+                <div>
+                  <p> Lorem ipsum dolor sit amet, lerisque commodo. Nam porta cursus lectusconsectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non, volutpat vel tortor. Integer laoreet placerat suscipit. Sed sodales sce. Proin nunc
+                    erat,
+                    gravida a facilisis quis, ornare id lectus.</p>
+                  <br>
+                  <p>Tab 3 Container</p>
+                </div>
+              </div>
+            </div>
+            <!-- <div id="nested-tabInfo2">
+              Selected tab: <span class="tabName"></span>
+            </div> -->
+          </div>
+          <!--/ Vertical Tab-->
+        </div>
+        <!-- /easy-tabs -->
+
+      </div>
+      <!-- /container -->
+    </section>
+    <!-- /TAB 2-->
+
+
+
+    <footer class="mt100">
+      <div class="container">
+        <p>&copy;2020 allright reserved by <a href="http://vipinsingh.com">vipin singh</a></p>
+      </div>
+    </footer>
+
+    <!-- /SITE WRAPPER -->
+
+    <script src="js/script.min.js" charset="utf-8"></script>
+</body>
+
+</html>

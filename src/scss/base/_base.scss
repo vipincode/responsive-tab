@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family--primary;
+  font-size: $base-font;
+  color: $color-accent;
+  line-height: ($base-line / $base-font);
+}
+
+img {
+  max-width: 100%;
+}
+
+ul, ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3, {
+  margin-top: 0px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: em(34px, 32px);
+  @include mq(md) {
+    font-size: em(52px);
+    margin-bottom: em(34px, 52px);
+  }
+  @include mq(lg) {
+    font-size: em(62px);
+    margin-bottom: em(34px, 62px);
+  }
+}
+
+h2 {
+  font-size: em(15px);
+  font-weight: $font-weight--large;
+}
+
+h3 {
+  font-size: em(24px);
+  margin-bottom: em(34px, 24px);
+  @include mq(md) {
+      font-size: em(38px);
+      margin-bottom: em(34px, 38px);
+  }
+}
+
+footer {
+  padding: 60px 0px;
+  text-align: center;
+  border-top: 1px solid $grey;
+
+  p {
+    font-size: em(14px);
+    font-weight: $font-weight--medium;
+    letter-spacing: 3px;
+     a {
+       letter-spacing: 1px;
+     }
+  }
+}
+
+.mt50 {
+  margin-top: em(50px);
+}
+
+.mt80 {
+  margin-top: em(80px);
+}
+
+.mt100 {
+  margin-top: em(100px);
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
